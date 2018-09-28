@@ -1,0 +1,68 @@
+--2018-09-19 15:05:20--  http://sample.wangding.in/nodejs/qr-code.jpg
+正在解析主机 sample.wangding.in (sample.wangding.in)... 185.199.108.153, 185.199.111.153, 185.199.110.153, ...
+正在连接 sample.wangding.in (sample.wangding.in)|185.199.108.153|:80... 已连接。
+已发出 HTTP 请求，正在等待回应... 读取文件头错误 (Connection reset by peer)。
+重试中。
+
+--2018-09-19 15:05:21--  (尝试次数： 2)  http://sample.wangding.in/nodejs/qr-code.jpg
+正在连接 sample.wangding.in (sample.wangding.in)|185.199.108.153|:80... 已连接。
+已发出 HTTP 请求，正在等待回应... 读取文件头错误 (Connection reset by peer)。
+重试中。
+
+--2018-09-19 15:05:23--  (尝试次数： 3)  http://sample.wangding.in/nodejs/qr-code.jpg
+正在连接 sample.wangding.in (sample.wangding.in)|185.199.108.153|:80... 已连接。
+已发出 HTTP 请求，正在等待回应... 读取文件头错误 (Connection reset by peer)。
+重试中。
+
+--2018-09-19 15:05:26--  (尝试次数： 4)  http://sample.wangding.in/nodejs/qr-code.jpg
+正在连接 sample.wangding.in (sample.wangding.in)|185.199.108.153|:80... 已连接。
+已发出 HTTP 请求，正在等待回应... 读取文件头错误 (Connection reset by peer)。
+重试中。
+
+--2018-09-19 20:40:44--  (尝试次数： 5)  http://sample.wangding.in/nodejs/qr-code.jpg
+正在连接 sample.wangding.in (sample.wangding.in)|185.199.108.153|:80... 已连接。
+已发出 HTTP 请求，正在等待回应... 读取文件头错误 (Connection reset by peer)。
+重试中。
+
+--2018-09-19 20:40:49--  (尝试次数： 6)  http://sample.wangding.in/nodejs/qr-code.jpg
+正在连接 sample.wangding.in (sample.wangding.in)|185.199.108.153|:80... 已连接。
+已发出 HTTP 请求，正在等待回应... 读取文件头错误 (Connection reset by peer)。
+重试中。
+
+--2018-09-19 20:40:55--  (尝试次数： 7)  http://sample.wangding.in/nodejs/qr-code.jpg
+正在连接 sample.wangding.in (sample.wangding.in)|185.199.108.153|:80... 已连接。
+已发出 HTTP 请求，正在等待回应... 读取文件头错误 (Connection reset by peer)。
+重试中。
+
+--2018-09-19 20:41:02--  (尝试次数： 8)  http://sample.wangding.in/nodejs/qr-code.jpg
+正在连接 sample.wangding.in (sample.wangding.in)|185.199.108.153|:80... 已连接。
+已发出 HTTP 请求，正在等待回应... 读取文件头错误 (Connection reset by peer)。
+重试中。
+
+--2018-09-19 20:41:10--  (尝试次数： 9)  http://sample.wangding.in/nodejs/qr-code.jpg
+正在连接 sample.wangding.in (sample.wangding.in)|185.199.108.153|:80... 已连接。
+已发出 HTTP 请求，正在等待回应... 读取文件头错误 (Connection reset by peer)。
+重试中。
+
+--2018-09-19 20:41:19--  (尝试次数：10)  http://sample.wangding.in/nodejs/qr-code.jpg
+正在连接 sample.wangding.in (sample.wangding.in)|185.199.108.153|:80... 已连接。
+已发出 HTTP 请求，正在等待回应... 读取文件头错误 (Connection reset by peer)。
+重试中。
+
+--2018-09-19 20:41:29--  (尝试次数：11)  http://sample.wangding.in/nodejs/qr-code.jpg
+正在连接 sample.wangding.in (sample.wangding.in)|185.199.108.153|:80... 已连接。
+已发出 HTTP 请求，正在等待回应... 读取文件头错误 (Connection reset by peer)。
+重试中。
+
+--2018-09-19 20:41:40--  (尝试次数：12)  http://sample.wangding.in/nodejs/qr-code.jpg
+正在连接 sample.wangding.in (sample.wangding.in)|185.199.108.153|:80... 失败：Connection reset by peer。
+正在连接 sample.wangding.in (sample.wangding.in)|185.199.111.153|:80... 已连接。
+已发出 HTTP 请求，正在等待回应... 200 OK
+长度：56582 (55K) [image/jpeg]
+正在保存至: “qr-code.jpg.1”
+
+     0K .......... .......... .......... .......... .......... 90%  145K 0s
+    50K .....                                                 100% 23.7K=0.6s
+
+2018-09-19 20:41:41 (97.6 KB/s) - 已保存 “qr-code.jpg.1” [56582/56582])
+
