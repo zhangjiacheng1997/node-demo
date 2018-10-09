@@ -5,16 +5,6 @@ console.log('|-----------信源熵计算-----------|\n\n');
 var s = 0;
 var H = 0;
 
-//function log(a,b){
-//  var i = 0;
-//  var s = 1;
-//  while(!s<=a){
-//    s*=0.5;
-//    i++
-//  }
-//  console.log(i);
-//  return i;
-//}
 
 function pro(){
   var argv1 = [];
@@ -24,11 +14,12 @@ function pro(){
     process.stdin.on('data',(data)=>{
       argv1[i] = data.toString('utf8');
       i++;
+      fun(argv1);
       console.log('请输入信源概率分布p%d:',i+1);
 
     });
     process.on('SIGINT',()=>{
-      fun(argv1);
+      fun2(argv1);
       process.exit();
     })
 
@@ -41,8 +32,9 @@ else{
   
   var argv2 = process.argv.slice(1);
   argv2 = argv2.slice(1);
-  fun(argv2);
+  fun2(argv2);
 }
+
 
 function fun(argv){
 for(var i = 0;i<argv.length;i++){
@@ -70,9 +62,16 @@ for(var i = 0;i<argv.length;i++){
         process.exit(1);
       }
     }
-
-  var num = Number(argv[i])
-  H -= num*Math.log(num,2);
 }
-console.log('\n信源熵为：',H)
+}
+
+
+function fun2(arr){
+  var H = 0;
+  for(var i = 0;i<arr.length;i++){
+    var num = Number(arr[i]);
+  
+    H -= num*Math.log(num,2);
+  }
+  console.log('信源熵是：%d',H)
 }
